@@ -1,0 +1,31 @@
+# TODO: Migrate to Google Test
+
+cxx_binary(
+  name = 'visit-each-test',
+  srcs = [
+    'visit_each_test.cpp'
+  ],
+  deps = [
+    '//:boost-core',
+  ],
+)
+
+cxx_binary(
+  name = 'addressof-test',
+  srcs = [
+    'addressof_test.cpp'
+  ],
+  deps = [
+    '//:boost-core',
+  ],
+)
+
+cxx_binary(
+  name = 'iterator-test',
+  srcs = [
+    'iterator_test.cpp'
+  ],
+  deps = [
+    '//:boost-core',
+  ],
+)
