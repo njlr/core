@@ -1,0 +1,7 @@
+{
+  "name": "boost-core",
+  "dependencies": {
+    "boost-assert": "1.63.0",
+    "boost-config": "1.63.0"
+  }
+}
